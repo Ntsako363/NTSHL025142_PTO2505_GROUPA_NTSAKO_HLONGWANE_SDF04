@@ -18,7 +18,7 @@ footer {
   margin-right: 10%;
 }
 
-.child1 {
+.address {
   input {
     outline: none;
     height: 20px;
@@ -64,15 +64,15 @@ hr {
     grid-template-rows: 1fr 1fr 1fr;
     padding: 0%;
   }
-  .child1 {
+  .address {
     grid-column: 1/2;
     grid-row: 1/3;
   }
-  .child2 {
+  .links {
     grid-column: 1/2;
     grid-row: 2/3;
   }
-  .child3 {
+  .technologies {
     grid-column: 2/2;
     grid-row: 2/3;
   }
@@ -86,7 +86,7 @@ hr {
     display: flex;
     flex-direction: column;
   }
-  .child1 {
+  .address {
     display: flex;
     flex-direction: column;
     input {
